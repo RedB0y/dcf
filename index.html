@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUPON CODE FORM</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <script src="./slide.js" defer></script>
+</head>
+<body onload="initSlider('track')" onreload="initSlider('track')"> 
+
+    <div class="main-cont">
+        <div class="frame">
+
+                <div class="track">
+
+                    <div class="pg1">
+                        <div class="form-cont">
+
+                            <span class="hdr">DISCOUNT COUPON FORM.</span>
+
+                            <div class="ip-cont-frame">
+                                <div class="hdr-cont"><span>NAME/పేరు</span></div>
+                                <div class="ip-cont"><input type="text" class="form-val"></div>
+                            </div> <!-- ip-cont-frame end-->
+
+                            <div class="ip-cont-frame">
+                                <div class="hdr-cont"><span>PHONE NUMBER/ఫోను నంబరు</span></div>
+                                <div class="ip-cont"><input type="text" class="form-val"></div>
+                            </div> <!-- ip-cont-frame end-->
+
+                            <div class="ip-cont-frame">
+                                <div class="hdr-cont"><span>PLACE/నగరం</span></div>
+                                <div class="ip-cont"><input type="text" class="form-val"></div>
+                            </div> <!-- ip-cont-frame end-->
+
+                            <div class="btn-cont">
+                                <button class="btn" onclick="movePage('track',1)">SUBMIT</button>
+                            </div>
+
+                        </div> <!--form-cont end-->
+                    </div> <!-- pg1 end -->
+
+                    <div class="pg2">
+                       <div class="message-cont">
+                           <span class="hdr">WOOHOO!! YOU'VE WON A COUPON CODE!!</span>
+                        
+                           <input style="width: 15vw; height: 10vh;font-weight: bold;" type="text" disabled value="0XA12EVG">
+                        
+                        </div>
+                    </div> <!-- pg2 end -->
+            </div> <!-- track end -->
+        </div> <!-- frame end -->
+
+
+    </div> <!--main-cont end -->
+
+
+
+</body>
+</html>
